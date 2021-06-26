@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">TelegramMFT</string>
+
+    <array name="userNames">
+        <item>vahid.bakhtiyari</item>
+        <item>ali.allahverdi</item>
+        <item>hesam.m</item>
+        <item>avnik</item>
+        <item>sara.saghaei</item>
+        <item>erfan.arab</item>
+        <item>mahsa dolati</item>
+        <item>pariya</item>
+        <item>pouria.taheri</item>
+        <item>alireza.t</item>
+        <item>wavaw.w</item>
+    </array>
+
+    <array name="messages_call">
+        <item>Missed</item>
+        <item>Cancelled</item>
+        <item>Missed</item>
+        <item>Cancelled</item>
+        <item>Missed</item>
+        <item>Cancelled</item>
+        <item>Missed</item>
+        <item>Cancelled</item>
+        <item>Missed</item>
+        <item>Cancelled</item>
+        <item>Cancelled</item>
+    </array>
+
+    <array name="messages">
+        <item>differences between .NET Core and .NET Framework 👌 check this out!</item>
+        <item>Kotlin! 🔥 it has seen a dramatic rise in popularity over the past couple of years.
+            Its adoption as an alternative to Java is particularly remarkable.
+        </item>
+        <item>plaese check your email my friend 🙏</item>
+        <item>Why? Just think about it 👍 RecyclerView is needed almost in every modern Android
+            app
+        </item>
+        <item>LiveData is still our solution for Java developers, beginners, and simple situations
+            🤔
+        </item>
+        <item>How To Execute 3 Essential Exercises With Perfect Form? 💪😎</item>
+        <item>thank you! 🙋🏼‍♀️</item>
+        <item>Check out the documentation if you want to learn more! 🌸 Happy coding!</item>
+        <item>🤦🏻😐🙏</item>
+        <item>✅ With the Background Task Inspector tab selected in the App Inspection window, I run
+            the app again on a device or emulator running API level 26 or above
+        </item>
+        <item>Thanks! It is really helpful! 😊</item>
+    </array>
+
+    <array name="messages_response">
+        <item>Sure! Thank you so much! 👌💚</item>
+        <item>tnx boy! 😃</item>
+        <item>sure! 😎</item>
+        <item>please send your rv class 👍</item>
+        <item>exactly! 👌</item>
+        <item>check your email boy! 👊🔥</item>
+        <item>🙏🙋🏻‍♂️</item>
+        <item>sure! tnx ✅</item>
+        <item>Again??? 🤔</item>
+        <item>👍👍👍</item>
+        <item>🙋🏻‍♂️🙏</item>
+    </array>
+
+
+    <array name="message_hours">
+        <item>"20:57"</item>
+        <item>"16:46"</item>
+        <item>"08:16"</item>
+        <item>"10:13"</item>
+        <item>"07:10"</item>
+        <item>"18:35"</item>
+        <item>"14:37"</item>
+        <item>"20:30"</item>
+        <item>"18:30"</item>
+        <item>"12:46"</item>
+        <item>"05:58"</item>
+    </array>
+
+    <array name="message_numbers">
+        <item>"16"</item>
+        <item>"3"</item>
+        <item>"10"</item>
+        <item>"35"</item>
+        <item>"95"</item>
+        <item>"137"</item>
+        <item>"118"</item>
+        <item>"32"</item>
+        <item>"15"</item>
+        <item>"8"</item>
+        <item>"42"</item>
+    </array>
+
+    <array name="dates">
+        <item>"Yesterday"</item>
+        <item>"28 May"</item>
+        <item>"4 April"</item>
+        <item>"14 July 2020"</item>
+        <item>"6 June 2020"</item>
+        <item>"28 May 2020"</item>
+        <item>"26 May 2020"</item>
+        <item>"7 March 2020"</item>
+        <item>"10 February 2020"</item>
+        <item>"28 January 2020"</item>
+        <item>"17 December 2019"</item>
+    </array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="help_head">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.</string>
+    <string name="help_tittle">Please take a look at the Telegtam FAQ: it has answers  to most questions and important tips for troubleshooting.</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentAddAccount">
+
+    <activity
+        android:id="@+id/chatTelegramActivity"
+        android:name="com.alroid.telegrammftapp.ChatTelegramActivity"
+        android:label="ChatTelegramActivity"
+        tools:layout="@layout/activity_chat_telegram" />
+    <fragment
+        android:id="@+id/fragmentAddAccount"
+        android:name="com.alroid.telegrammftapp.fragment.FragmentAddAccount"
+        android:label="FragmentAddAccount"
+        tools:layout="@layout/fragment_add_account" />
+    <fragment
+        android:id="@+id/fragmentSetting"
+        android:name="com.alroid.telegrammftapp.fragment.FragmentSetting"
+        android:label="FragmentSetting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.alroid.telegrammftapp.fragment.FragmentSearch"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search" />
+</navigation>

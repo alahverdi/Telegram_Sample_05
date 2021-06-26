@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black_telegram">#262626</color>
+    <color name="black_200">#727272</color>
+    <color name="black_100">#9A9A9A</color>
+    <color name="normal_text_color">#727272</color>
+    <color name="stroke_editText_normal">#9A9A9A</color>
+    <color name="light_gray">#BCBCBC</color>
+    <color name="icon_gray">#7c8690</color>
+    <color name="searchBox_light_gray">#ECECEC</color>
+    <color name="item_call_date">#f2f2f2</color>
+    <color name="telegram_blue">#3f83b0</color>
+    <color name="telegram_blue_fab">#4fa9e7</color>
+    <color name="telegram_blue_dark">#356c92</color>
+    <color name="fab_red_telegram">#ed5554</color>
+    <color name="fab_orange_telegram">#ff8c17</color>
+    <color name="fab_yellow_telegram">#fcb22b</color>
+    <color name="fab_green_telegram">#4faf58</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_40">#999999</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="yellow_200">#FFF59D</color>
+    <color name="green_message">#58B346</color>
+
+</resources>

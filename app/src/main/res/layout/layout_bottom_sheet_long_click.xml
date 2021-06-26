@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="start"
+        android:text="chat with user"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_select"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="8dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Select"
+        app:drawableStartCompat="@drawable/ic_baseline_select_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user" />
+
+    <TextView
+        android:id="@+id/tv_mute_notification"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Mute Notification"
+        app:drawableStartCompat="@drawable/ic_baseline_mute_notification_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_select" />
+
+    <TextView
+        android:id="@+id/tv_pin_to_top"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Pin to top"
+        app:drawableStartCompat="@drawable/ic_baseline_pin_to_top_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mute_notification" />
+
+
+    <TextView
+        android:id="@+id/tv_archive_chat"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Archive Chat"
+        app:drawableStartCompat="@drawable/ic_baseline_archive_chat_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pin_to_top" />
+
+    <TextView
+        android:id="@+id/tv_mark_as_unread"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Mark as unread"
+        app:drawableStartCompat="@drawable/ic_baseline_mark_as_read_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_archive_chat" />
+
+    <TextView
+        android:id="@+id/tv_clear_history"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/icon_gray"
+        android:text="Clear history"
+        app:drawableStartCompat="@drawable/ic_baseline_clear_history_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mark_as_unread" />
+
+    <TextView
+        android:id="@+id/tv_delete_chat"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:drawableTint="@color/fab_red_telegram"
+        android:text="Delete chat"
+        android:textColor="@color/fab_red_telegram"
+        app:drawableStartCompat="@drawable/ic_baseline_delete_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_clear_history" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/item_call_date"
+        android:padding="16dp"
+        android:text="14 July 2020"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/user_pic_02"
+            app:civ_border_overlay="true"
+            app:civ_border_width="0dp" />
+
+        <ImageView
+            android:id="@+id/iv_cancelled_icon"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_userName"
+            android:layout_alignStart="@id/tv_userName"
+            android:layout_alignBottom="@id/tv_message"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_item_call_24"
+            app:tint="@color/fab_red_telegram" />
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_user"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@id/iv_user"
+            android:gravity="start|center"
+
+            android:paddingStart="8dp"
+            android:text="ali_allahverdi"
+            android:textColor="@color/black_telegram"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_userName"
+            android:layout_toStartOf="@id/tv_hour"
+            android:layout_toEndOf="@id/iv_cancelled_icon"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:maxLines="2"
+            android:padding="4dp"
+            android:text="Cancelled" />
+
+        <TextView
+            android:id="@+id/tv_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_user"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="22:15"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
